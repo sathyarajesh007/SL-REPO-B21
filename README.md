@@ -7,5 +7,7 @@ docker-compose --version
 
 
 exit
+
 docker rm centos
+
 sudo docker run -it --name centos centos:7 /bin/bash
